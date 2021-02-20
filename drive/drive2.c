@@ -35,10 +35,9 @@ int main()
 
 bool alarm_pwm(struct repeating_timer *t)
 {
-    // ++level;
-    // if(level==10)
-    //     level = 0;
-    level = 9;
+    ++level;
+    if(level==10)
+        level = 0;
 
     pwm_set_gpio_level(LED_PIN, level);//Set PWM duty cycle
     pwm_set_gpio_level(MOS_PIN, level);//Set MOS duty cycle
