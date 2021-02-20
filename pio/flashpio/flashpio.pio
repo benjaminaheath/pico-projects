@@ -1,0 +1,35 @@
+.program flashpio
+
+.side_set 1 opt
+
+.wrap_target
+LOAD:
+    PULL ifempty [7]         ;   Pull from TX FIFO if OSR empty, don't hold as could be full 0s.
+    OUT PINS 1 [7]       ;   Shift OSR by 1 into X
+    NOP [7];
+    NOP [7];
+    
+
+
+/*EVAL:
+    JMP !X OFF side 0     ;   If X is 0, go to OFF
+    JMP ON     side 1     ;   If X is 1, go to ON
+ON:
+    JMP LOAD   side 1     ;   Drive 1, Go back to LOAD for new shift
+OFF: 
+    JMP LOAD   side 0     ;   Drive 1, Go back*/
+.wrap
+
+% c-sdk {
+static inline void flashpio_program_init(PIO pio, uint sm, uint offset, uint pin)
+{
+    pio_sm_config c = flashpio_program_get_default_config(offset);
+    sm_config_set_out_pins(&c, pin, 1);
+    pio_gpio_init(pio, pin);
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true);
+
+    pio_sm_init(pio,sm,offset, &c);
+    pio_sm_set_enabled(pio,sm, true);
+}
+
+%}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/CMakeFiles/PioasmBuild"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/CMakeFiles/PioasmBuild.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/CMakeFiles/PioasmBuild-complete.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+		},
+		{
+			"file" : "D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PioasmBuild"
+		],
+		"name" : "PioasmBuild"
+	}
+}

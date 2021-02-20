@@ -1,0 +1,33 @@
+.program pwmpio
+
+.side_set 1
+
+.wrap_target
+    PULL SIDE 1 [7];
+    OUT X 1      SIDE 1 [7];
+    NOP             SIDE 0 [7];
+    NOP SIDE 0 [7];
+.wrap
+
+/*EVAL:
+    JMP !X OFF side 0     ;   If X is 0, go to OFF
+    JMP ON     side 1     ;   If X is 1, go to ON
+ON:
+    JMP LOAD   side 1     ;   Drive 1, Go back to LOAD for new shift
+OFF: 
+    JMP LOAD   side 0     ;   Drive 1, Go back*/
+
+
+% c-sdk {
+static inline void pwmpio_program_init(PIO pio, uint sm, uint offset, uint pin)
+{
+    pio_sm_config c = pwmpio_program_get_default_config(offset);
+    sm_config_set_out_pins(&c, pin, 1);
+    pio_gpio_init(pio, pin);
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true);
+
+    pio_sm_init(pio,sm,offset, &c);
+    pio_sm_set_enabled(pio,sm, true);
+}
+
+%}

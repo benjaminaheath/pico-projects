@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+D:/RPI/pico-projects/build/flash/pwm/CMakeFiles/PioasmBuild
+D:/RPI/pico-projects/build/flash/pwm/CMakeFiles/PioasmBuild.rule
+D:/RPI/pico-projects/build/flash/pwm/CMakeFiles/PioasmBuild-complete.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+D:/RPI/pico-projects/build/flash/pwm/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
