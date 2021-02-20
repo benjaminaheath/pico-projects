@@ -229,6 +229,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "pio/pwmpio/CMakeFiles/pwmpio.dir/DependInfo.cmake"
   "pio/pwmpio/CMakeFiles/pwmpio_pwmpio_pio_h.dir/DependInfo.cmake"
   "gpiopwm/CMakeFiles/gpiopwm.dir/DependInfo.cmake"
+  "drive/CMakeFiles/sine_drive.dir/DependInfo.cmake"
   "drive/CMakeFiles/drive2.dir/DependInfo.cmake"
   "drive/CMakeFiles/drive.dir/DependInfo.cmake"
   )

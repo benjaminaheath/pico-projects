@@ -124,6 +124,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+drive\CMakeFiles\sine_drive.dir\rule:
+	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\rule
+	cd D:\RPI\pico-projects\build\drive
+.PHONY : drive\CMakeFiles\sine_drive.dir\rule
+
+# Convenience name for target.
+sine_drive: drive\CMakeFiles\sine_drive.dir\rule
+
+.PHONY : sine_drive
+
+# fast build rule for target.
+sine_drive\fast:
+	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\build
+	cd D:\RPI\pico-projects\build\drive
+.PHONY : sine_drive\fast
+
+# Convenience name for target.
 drive\CMakeFiles\drive2.dir\rule:
 	cd D:\RPI\pico-projects\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\rule
@@ -168,6 +187,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\critical_section.obj: D_\RPI\pico-sdk\src\c
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -180,6 +200,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\critical_section.i: D_\RPI\pico-sdk\src\com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -192,6 +213,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\critical_section.s: D_\RPI\pico-sdk\src\com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\critical_section.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -204,6 +226,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\lock_core.obj: D_\RPI\pico-sdk\src\common\p
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -216,6 +239,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\lock_core.i: D_\RPI\pico-sdk\src\common\pic
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -228,6 +252,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\lock_core.s: D_\RPI\pico-sdk\src\common\pic
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\lock_core.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -240,6 +265,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\mutex.obj: D_\RPI\pico-sdk\src\common\pico_
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -252,6 +278,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\mutex.i: D_\RPI\pico-sdk\src\common\pico_sy
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -264,6 +291,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\mutex.s: D_\RPI\pico-sdk\src\common\pico_sy
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\mutex.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -276,6 +304,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\sem.obj: D_\RPI\pico-sdk\src\common\pico_sy
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_sync\sem.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -288,6 +317,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\sem.i: D_\RPI\pico-sdk\src\common\pico_sync
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_sync\sem.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -300,6 +330,7 @@ D_\RPI\pico-sdk\src\common\pico_sync\sem.s: D_\RPI\pico-sdk\src\common\pico_sync
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_sync\sem.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_sync\sem.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -312,6 +343,7 @@ D_\RPI\pico-sdk\src\common\pico_time\time.obj: D_\RPI\pico-sdk\src\common\pico_t
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_time\time.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -324,6 +356,7 @@ D_\RPI\pico-sdk\src\common\pico_time\time.i: D_\RPI\pico-sdk\src\common\pico_tim
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_time\time.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -336,6 +369,7 @@ D_\RPI\pico-sdk\src\common\pico_time\time.s: D_\RPI\pico-sdk\src\common\pico_tim
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_time\time.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_time\time.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -348,6 +382,7 @@ D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.obj: D_\RPI\pico-sdk\src\com
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -360,6 +395,7 @@ D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.i: D_\RPI\pico-sdk\src\commo
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -372,6 +408,7 @@ D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.s: D_\RPI\pico-sdk\src\commo
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_time\timeout_helper.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -384,6 +421,7 @@ D_\RPI\pico-sdk\src\common\pico_util\datetime.obj: D_\RPI\pico-sdk\src\common\pi
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_util\datetime.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -396,6 +434,7 @@ D_\RPI\pico-sdk\src\common\pico_util\datetime.i: D_\RPI\pico-sdk\src\common\pico
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_util\datetime.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -408,6 +447,7 @@ D_\RPI\pico-sdk\src\common\pico_util\datetime.s: D_\RPI\pico-sdk\src\common\pico
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_util\datetime.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\datetime.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -420,6 +460,7 @@ D_\RPI\pico-sdk\src\common\pico_util\pheap.obj: D_\RPI\pico-sdk\src\common\pico_
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_util\pheap.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -432,6 +473,7 @@ D_\RPI\pico-sdk\src\common\pico_util\pheap.i: D_\RPI\pico-sdk\src\common\pico_ut
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_util\pheap.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -444,6 +486,7 @@ D_\RPI\pico-sdk\src\common\pico_util\pheap.s: D_\RPI\pico-sdk\src\common\pico_ut
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_util\pheap.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\pheap.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -456,6 +499,7 @@ D_\RPI\pico-sdk\src\common\pico_util\queue.obj: D_\RPI\pico-sdk\src\common\pico_
 # target to build an object file
 D_\RPI\pico-sdk\src\common\pico_util\queue.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -468,6 +512,7 @@ D_\RPI\pico-sdk\src\common\pico_util\queue.i: D_\RPI\pico-sdk\src\common\pico_ut
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\common\pico_util\queue.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -480,6 +525,7 @@ D_\RPI\pico-sdk\src\common\pico_util\queue.s: D_\RPI\pico-sdk\src\common\pico_ut
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\common\pico_util\queue.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\common\pico_util\queue.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -492,6 +538,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.obj: D_\RPI\pico-sdk\src\rp2
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -504,6 +551,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.i: D_\RPI\pico-sdk\src\rp2_c
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -516,6 +564,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.s: D_\RPI\pico-sdk\src\rp2_c
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -528,6 +577,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.obj: D_\RPI\pico-sdk\src\r
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -540,6 +590,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.i: D_\RPI\pico-sdk\src\rp2
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -552,6 +603,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.s: D_\RPI\pico-sdk\src\rp2
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -564,6 +616,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_divider\divider.obj: D_\RPI\pico-sdk\src
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -576,6 +629,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -588,6 +642,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -600,6 +655,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -612,6 +668,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.obj: D_\RPI\pico-sdk\src\rp2_com
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -624,6 +681,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.i: D_\RPI\pico-sdk\src\rp2_commo
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -636,6 +694,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.s: D_\RPI\pico-sdk\src\rp2_commo
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -648,6 +707,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.obj: D_\RPI\pico-s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -660,6 +720,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.obj: D_\RPI\pico-sdk\src\rp2_com
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -672,6 +733,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.i: D_\RPI\pico-sdk\src\rp2_commo
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -684,6 +746,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.s: D_\RPI\pico-sdk\src\rp2_commo
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -696,6 +759,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -708,6 +772,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -720,6 +785,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -732,6 +798,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.obj: D_\RPI\pico-sdk\src\rp2
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -744,6 +811,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.i: D_\RPI\pico-sdk\src\rp2_c
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -756,6 +824,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.s: D_\RPI\pico-sdk\src\rp2_c
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -768,6 +837,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -780,6 +850,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -792,6 +863,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -804,6 +876,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -816,6 +889,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -828,6 +902,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -840,6 +915,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.obj: D_\RPI\pico-sdk\s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -852,6 +928,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.i: D_\RPI\pico-sdk\src
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -864,6 +941,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.s: D_\RPI\pico-sdk\src
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -876,6 +954,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -888,6 +967,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -900,6 +980,7 @@ D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -912,6 +993,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.obj: D_\RPI\pico-sdk\s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -924,6 +1006,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.obj: D_\RPI\pico-sdk\src\rp2
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -936,6 +1019,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.i: D_\RPI\pico-sdk\src\rp2_c
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -948,6 +1032,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.s: D_\RPI\pico-sdk\src\rp2_c
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -960,6 +1045,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_divider\divider.obj: D_\RPI\pico-sdk\src\rp2
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_divider\divider.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -972,6 +1058,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_aeabi.obj: D_\RPI\pico-sdk\src
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -984,6 +1071,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.obj: D_\RPI\pico-sdk\
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -996,6 +1084,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.i: D_\RPI\pico-sdk\sr
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1008,6 +1097,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.s: D_\RPI\pico-sdk\sr
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1020,6 +1110,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.obj: D_\RPI\pico-sdk\src\
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1032,6 +1123,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.i: D_\RPI\pico-sdk\src\rp
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1044,6 +1136,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.s: D_\RPI\pico-sdk\src\rp
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1056,6 +1149,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.obj: D_\RPI\pico-s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1068,6 +1162,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj: D_\RPI\pico-sdk\src\r
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1080,6 +1175,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.obj: D_\RPI\pico-sdk\sr
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1092,6 +1188,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.i: D_\RPI\pico-sdk\src\
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1104,6 +1201,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.s: D_\RPI\pico-sdk\src\
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1116,6 +1214,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.obj: D_\RPI\pico-sdk\src\rp
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1128,6 +1227,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.i: D_\RPI\pico-sdk\src\rp2_
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1140,6 +1240,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.s: D_\RPI\pico-sdk\src\rp2_
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1152,6 +1253,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.obj: D_\RPI\pico-sdk
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1164,6 +1266,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.obj: D_\RPI\p
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1176,6 +1279,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.obj: D_\RPI\pico-sdk\src\
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1188,6 +1292,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.i: D_\RPI\pico-sdk\src\rp
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1200,6 +1305,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.s: D_\RPI\pico-sdk\src\rp
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1212,6 +1318,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.obj: D_\RPI\pico-sdk\s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1224,6 +1331,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.obj: D_\RPI\pico-sdk\src\r
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1236,6 +1344,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.i: D_\RPI\pico-sdk\src\rp2
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1248,6 +1357,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.s: D_\RPI\pico-sdk\src\rp2
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1260,6 +1370,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1272,6 +1383,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1284,6 +1396,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1296,6 +1409,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.obj: D_\RPI\pico-sdk\src\rp2
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1308,6 +1422,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.i: D_\RPI\pico-sdk\src\rp2_c
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1320,6 +1435,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.s: D_\RPI\pico-sdk\src\rp2_c
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1332,6 +1448,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.obj: D_\RPI\pico-s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1344,6 +1461,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.i: D_\RPI\pico-sdk
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1356,6 +1474,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.s: D_\RPI\pico-sdk
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1368,6 +1487,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\crt0.obj: D_\RPI\pico-sdk\src\
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1380,6 +1500,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.obj: D_\RPI\pico-sd
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1392,6 +1513,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.i: D_\RPI\pico-sdk\
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1404,6 +1526,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.s: D_\RPI\pico-sdk\
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1416,6 +1539,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.obj: D_\RPI\pico-sdk\src\rp2_com
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1428,6 +1552,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.i: D_\RPI\pico-sdk\src\rp2_commo
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1440,6 +1565,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.s: D_\RPI\pico-sdk\src\rp2_commo
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1452,6 +1578,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.obj: D_\RPI\pico-sdk\s
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1464,6 +1591,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.i: D_\RPI\pico-sdk\src
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1476,6 +1604,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.s: D_\RPI\pico-sdk\src
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1488,6 +1617,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj: D_\RPI\pico-sdk\src\rp2_c
 # target to build an object file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 	cd D:\RPI\pico-projects\build\drive
@@ -1500,6 +1630,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.i: D_\RPI\pico-sdk\src\rp2_com
 # target to preprocess a source file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 	cd D:\RPI\pico-projects\build\drive
@@ -1512,6 +1643,7 @@ D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.s: D_\RPI\pico-sdk\src\rp2_com
 # target to generate assembly for a file
 D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s:
 	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\D_\RPI\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 	cd D:\RPI\pico-projects\build\drive
@@ -1583,6 +1715,39 @@ drive2.c.s:
 	cd D:\RPI\pico-projects\build\drive
 .PHONY : drive2.c.s
 
+sine_drive.obj: sine_drive.c.obj
+
+.PHONY : sine_drive.obj
+
+# target to build an object file
+sine_drive.c.obj:
+	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\sine_drive.c.obj
+	cd D:\RPI\pico-projects\build\drive
+.PHONY : sine_drive.c.obj
+
+sine_drive.i: sine_drive.c.i
+
+.PHONY : sine_drive.i
+
+# target to preprocess a source file
+sine_drive.c.i:
+	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\sine_drive.c.i
+	cd D:\RPI\pico-projects\build\drive
+.PHONY : sine_drive.c.i
+
+sine_drive.s: sine_drive.c.s
+
+.PHONY : sine_drive.s
+
+# target to generate assembly for a file
+sine_drive.c.s:
+	cd D:\RPI\pico-projects\build
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\sine_drive.c.s
+	cd D:\RPI\pico-projects\build\drive
+.PHONY : sine_drive.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1593,6 +1758,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... drive
 	@echo ... drive2
+	@echo ... sine_drive
 	@echo ... D_/RPI/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... D_/RPI/pico-sdk/src/common/pico_sync/critical_section.i
 	@echo ... D_/RPI/pico-sdk/src/common/pico_sync/critical_section.s
@@ -1712,6 +1878,9 @@ help:
 	@echo ... drive2.obj
 	@echo ... drive2.i
 	@echo ... drive2.s
+	@echo ... sine_drive.obj
+	@echo ... sine_drive.i
+	@echo ... sine_drive.s
 .PHONY : help
 
 

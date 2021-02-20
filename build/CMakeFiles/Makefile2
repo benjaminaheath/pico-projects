@@ -86,6 +86,7 @@ clean: drive\clean
 # Directory level rules for directory drive
 
 # Recursive "all" directory target.
+drive\all: drive\CMakeFiles\sine_drive.dir\all
 drive\all: drive\CMakeFiles\drive2.dir\all
 drive\all: drive\CMakeFiles\drive.dir\all
 
@@ -97,6 +98,7 @@ drive\preinstall:
 .PHONY : drive\preinstall
 
 # Recursive "clean" directory target.
+drive\clean: drive\CMakeFiles\sine_drive.dir\clean
 drive\clean: drive\CMakeFiles\drive2.dir\clean
 drive\clean: drive\CMakeFiles\drive.dir\clean
 
@@ -1573,12 +1575,12 @@ pio\pwmpio\clean: pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\clean
 pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all:
 	$(MAKE) $(MAKESILENT) -f pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num= "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=5 "Built target bs2_default"
 .PHONY : pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 
 # Build rule for subdir invocation for target.
 pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule
@@ -1600,7 +1602,7 @@ pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\clean:
 pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all: pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(MAKE) $(MAKESILENT) -f pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=6 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num= "Built target bs2_default_bin"
 .PHONY : pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1652,16 +1654,16 @@ pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 
 # All Build rule for target.
 flash\pwm\CMakeFiles\pwm.dir\all: pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
-flash\pwm\CMakeFiles\pwm.dir\all: flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\all
 flash\pwm\CMakeFiles\pwm.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\all
+flash\pwm\CMakeFiles\pwm.dir\all: flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\all
 	$(MAKE) $(MAKESILENT) -f flash\pwm\CMakeFiles\pwm.dir\build.make /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\pwm.dir\depend
 	$(MAKE) $(MAKESILENT) -f flash\pwm\CMakeFiles\pwm.dir\build.make /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\pwm.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target pwm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target pwm"
 .PHONY : flash\pwm\CMakeFiles\pwm.dir\all
 
 # Build rule for subdir invocation for target.
 flash\pwm\CMakeFiles\pwm.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\pwm.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : flash\pwm\CMakeFiles\pwm.dir\rule
@@ -1683,12 +1685,12 @@ flash\pwm\CMakeFiles\pwm.dir\clean:
 flash\pwm\CMakeFiles\PioasmBuild.dir\all:
 	$(MAKE) $(MAKESILENT) -f flash\pwm\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\PioasmBuild.dir\depend
 	$(MAKE) $(MAKESILENT) -f flash\pwm\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\PioasmBuild.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=3,4,5 "Built target PioasmBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=3,4 "Built target PioasmBuild"
 .PHONY : flash\pwm\CMakeFiles\PioasmBuild.dir\all
 
 # Build rule for subdir invocation for target.
 flash\pwm\CMakeFiles\PioasmBuild.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\PioasmBuild.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : flash\pwm\CMakeFiles\PioasmBuild.dir\rule
@@ -1710,12 +1712,12 @@ flash\pwm\CMakeFiles\PioasmBuild.dir\clean:
 flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\all: flash\pwm\CMakeFiles\PioasmBuild.dir\all
 	$(MAKE) $(MAKESILENT) -f flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\build.make /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\depend
 	$(MAKE) $(MAKESILENT) -f flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\build.make /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=84 "Built target pwm_pwm_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num= "Built target pwm_pwm_pio_h"
 .PHONY : flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\all
 
 # Build rule for subdir invocation for target.
 flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : flash\pwm\CMakeFiles\pwm_pwm_pio_h.dir\rule
@@ -1766,12 +1768,12 @@ pio\flashpio\CMakeFiles\flashpio.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\
 pio\flashpio\CMakeFiles\flashpio.dir\all: pio\flashpio\CMakeFiles\flashpio_flashpio_pio_h.dir\all
 	$(MAKE) $(MAKESILENT) -f pio\flashpio\CMakeFiles\flashpio.dir\build.make /nologo -$(MAKEFLAGS) pio\flashpio\CMakeFiles\flashpio.dir\depend
 	$(MAKE) $(MAKESILENT) -f pio\flashpio\CMakeFiles\flashpio.dir\build.make /nologo -$(MAKEFLAGS) pio\flashpio\CMakeFiles\flashpio.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target flashpio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45 "Built target flashpio"
 .PHONY : pio\flashpio\CMakeFiles\flashpio.dir\all
 
 # Build rule for subdir invocation for target.
 pio\flashpio\CMakeFiles\flashpio.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pio\flashpio\CMakeFiles\flashpio.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : pio\flashpio\CMakeFiles\flashpio.dir\rule
@@ -1798,7 +1800,7 @@ pio\flashpio\CMakeFiles\flashpio_flashpio_pio_h.dir\all: flash\pwm\CMakeFiles\Pi
 
 # Build rule for subdir invocation for target.
 pio\flashpio\CMakeFiles\flashpio_flashpio_pio_h.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pio\flashpio\CMakeFiles\flashpio_flashpio_pio_h.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : pio\flashpio\CMakeFiles\flashpio_flashpio_pio_h.dir\rule
@@ -1822,12 +1824,12 @@ pio\pwmpio\CMakeFiles\pwmpio.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\all
 pio\pwmpio\CMakeFiles\pwmpio.dir\all: pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\all
 	$(MAKE) $(MAKESILENT) -f pio\pwmpio\CMakeFiles\pwmpio.dir\build.make /nologo -$(MAKEFLAGS) pio\pwmpio\CMakeFiles\pwmpio.dir\depend
 	$(MAKE) $(MAKESILENT) -f pio\pwmpio\CMakeFiles\pwmpio.dir\build.make /nologo -$(MAKEFLAGS) pio\pwmpio\CMakeFiles\pwmpio.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target pwmpio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target pwmpio"
 .PHONY : pio\pwmpio\CMakeFiles\pwmpio.dir\all
 
 # Build rule for subdir invocation for target.
 pio\pwmpio\CMakeFiles\pwmpio.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pio\pwmpio\CMakeFiles\pwmpio.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : pio\pwmpio\CMakeFiles\pwmpio.dir\rule
@@ -1849,12 +1851,12 @@ pio\pwmpio\CMakeFiles\pwmpio.dir\clean:
 pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\all: flash\pwm\CMakeFiles\PioasmBuild.dir\all
 	$(MAKE) $(MAKESILENT) -f pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\depend
 	$(MAKE) $(MAKESILENT) -f pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=100 "Built target pwmpio_pwmpio_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num= "Built target pwmpio_pwmpio_pio_h"
 .PHONY : pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\all
 
 # Build rule for subdir invocation for target.
 pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : pio\pwmpio\CMakeFiles\pwmpio_pwmpio_pio_h.dir\rule
@@ -1877,12 +1879,12 @@ gpiopwm\CMakeFiles\gpiopwm.dir\all: pico_sdk\src\rp2_common\boot_stage2\CMakeFil
 gpiopwm\CMakeFiles\gpiopwm.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f gpiopwm\CMakeFiles\gpiopwm.dir\build.make /nologo -$(MAKEFLAGS) gpiopwm\CMakeFiles\gpiopwm.dir\depend
 	$(MAKE) $(MAKESILENT) -f gpiopwm\CMakeFiles\gpiopwm.dir\build.make /nologo -$(MAKEFLAGS) gpiopwm\CMakeFiles\gpiopwm.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68 "Built target gpiopwm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target gpiopwm"
 .PHONY : gpiopwm\CMakeFiles\gpiopwm.dir\all
 
 # Build rule for subdir invocation for target.
 gpiopwm\CMakeFiles\gpiopwm.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) gpiopwm\CMakeFiles\gpiopwm.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : gpiopwm\CMakeFiles\gpiopwm.dir\rule
@@ -1898,6 +1900,34 @@ gpiopwm\CMakeFiles\gpiopwm.dir\clean:
 .PHONY : gpiopwm\CMakeFiles\gpiopwm.dir\clean
 
 #=============================================================================
+# Target rules for target drive/CMakeFiles/sine_drive.dir
+
+# All Build rule for target.
+drive\CMakeFiles\sine_drive.dir\all: pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
+drive\CMakeFiles\sine_drive.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\all
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\depend
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sine_drive"
+.PHONY : drive\CMakeFiles\sine_drive.dir\all
+
+# Build rule for subdir invocation for target.
+drive\CMakeFiles\sine_drive.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 17
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
+.PHONY : drive\CMakeFiles\sine_drive.dir\rule
+
+# Convenience name for target.
+sine_drive: drive\CMakeFiles\sine_drive.dir\rule
+
+.PHONY : sine_drive
+
+# clean rule for target.
+drive\CMakeFiles\sine_drive.dir\clean:
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\clean
+.PHONY : drive\CMakeFiles\sine_drive.dir\clean
+
+#=============================================================================
 # Target rules for target drive/CMakeFiles/drive2.dir
 
 # All Build rule for target.
@@ -1905,12 +1935,12 @@ drive\CMakeFiles\drive2.dir\all: pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\
 drive\CMakeFiles\drive2.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\depend
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive2.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target drive2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target drive2"
 .PHONY : drive\CMakeFiles\drive2.dir\all
 
 # Build rule for subdir invocation for target.
 drive\CMakeFiles\drive2.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive2.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : drive\CMakeFiles\drive2.dir\rule
@@ -1933,12 +1963,12 @@ drive\CMakeFiles\drive.dir\all: pico_sdk\src\rp2_common\boot_stage2\CMakeFiles\b
 drive\CMakeFiles\drive.dir\all: flash\pwm\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\depend
 	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target drive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\RPI\pico-projects\build\CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target drive"
 .PHONY : drive\CMakeFiles\drive.dir\all
 
 # Build rule for subdir invocation for target.
 drive\CMakeFiles\drive.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) drive\CMakeFiles\drive.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RPI\pico-projects\build\CMakeFiles 0
 .PHONY : drive\CMakeFiles\drive.dir\rule

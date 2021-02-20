@@ -23,7 +23,7 @@ int main()
     pwm_set_clkdiv(MOS_slice, 65535.0f);
 
     struct repeating_timer timer;//create repeating timer structure object
-    add_repeating_timer_ms(-2000,alarm_pwm,NULL,&timer);//Call repeating alarm every 5s, call function alarm_pwm, send pwm_slice_num as input, no output pointer
+    add_repeating_timer_ms(-5000,alarm_pwm,NULL,&timer);//Call repeating alarm every 5s, call function alarm_pwm, send pwm_slice_num as input, no output pointer
 
     pwm_set_gpio_level(MOS_PIN, 10);//Set MOS duty cycle
     while(true)

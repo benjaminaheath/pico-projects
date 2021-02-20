@@ -270,6 +270,19 @@ gpiopwm\fast:
 .PHONY : gpiopwm\fast
 
 #=============================================================================
+# Target rules for targets named sine_drive
+
+# Build rule for target.
+sine_drive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) sine_drive
+.PHONY : sine_drive
+
+# fast build rule for target.
+sine_drive\fast:
+	$(MAKE) $(MAKESILENT) -f drive\CMakeFiles\sine_drive.dir\build.make /nologo -$(MAKEFLAGS) drive\CMakeFiles\sine_drive.dir\build
+.PHONY : sine_drive\fast
+
+#=============================================================================
 # Target rules for targets named drive2
 
 # Build rule for target.
@@ -317,6 +330,7 @@ help:
 	@echo ... gpiopwm
 	@echo ... pwm
 	@echo ... pwmpio
+	@echo ... sine_drive
 .PHONY : help
 
 

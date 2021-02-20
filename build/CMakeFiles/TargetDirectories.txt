@@ -154,6 +154,7 @@ D:/RPI/pico-projects/build/pio/pwmpio/CMakeFiles/rebuild_cache.dir
 D:/RPI/pico-projects/build/gpiopwm/CMakeFiles/gpiopwm.dir
 D:/RPI/pico-projects/build/gpiopwm/CMakeFiles/edit_cache.dir
 D:/RPI/pico-projects/build/gpiopwm/CMakeFiles/rebuild_cache.dir
+D:/RPI/pico-projects/build/drive/CMakeFiles/sine_drive.dir
 D:/RPI/pico-projects/build/drive/CMakeFiles/drive2.dir
 D:/RPI/pico-projects/build/drive/CMakeFiles/drive.dir
 D:/RPI/pico-projects/build/drive/CMakeFiles/edit_cache.dir

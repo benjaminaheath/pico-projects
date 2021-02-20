@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "drive/drive2.elf"
+			"path" : "drive/sine_drive.elf"
 		}
 	],
 	"backtrace" : 1,
@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -63,7 +63,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 10,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -91,7 +91,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 11,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -103,7 +103,7 @@
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 5,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -196,7 +196,7 @@
 				},
 				{
 					"backtrace" : 12,
-					"define" : "PICO_TARGET_NAME=\"drive2\""
+					"define" : "PICO_TARGET_NAME=\"sine_drive\""
 				},
 				{
 					"backtrace" : 2,
@@ -472,7 +472,7 @@
 				},
 				{
 					"backtrace" : 12,
-					"define" : "PICO_TARGET_NAME=\"drive2\""
+					"define" : "PICO_TARGET_NAME=\"sine_drive\""
 				},
 				{
 					"backtrace" : 2,
@@ -744,7 +744,7 @@
 				},
 				{
 					"backtrace" : 12,
-					"define" : "PICO_TARGET_NAME=\"drive2\""
+					"define" : "PICO_TARGET_NAME=\"sine_drive\""
 				},
 				{
 					"backtrace" : 2,
@@ -916,7 +916,7 @@
 			"id" : "ELF2UF2Build::@ac225f36bd7cf10ca70b"
 		}
 	],
-	"id" : "drive2::@9c7df189214d1fe4ebfe",
+	"id" : "sine_drive::@9c7df189214d1fe4ebfe",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -1696,7 +1696,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-Map=drive2.elf.map",
+				"fragment" : "-Wl,-Map=sine_drive.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -1736,8 +1736,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "drive2",
-	"nameOnDisk" : "drive2.elf",
+	"name" : "sine_drive",
+	"nameOnDisk" : "sine_drive.elf",
 	"paths" : 
 	{
 		"build" : "drive",
@@ -1809,7 +1809,7 @@
 		{
 			"backtrace" : 13,
 			"compileGroupIndex" : 0,
-			"path" : "drive/drive2.c",
+			"path" : "drive/sine_drive.c",
 			"sourceGroupIndex" : 0
 		},
 		{
